@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Résultat en ligne</title>
+</head>
+<body>
+    <h2>Résultat en ligne</h2>
+    <p>Pour voir votre résultat en ligne, veuillez saisir votre numéro de CIN et votre numéro d'inscription :</p>
+
+    <form action="traitement_resultat.aspx" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="cin">N° de CIN :</label>
+                </td>
+                <td>
+                    <input type="text" id="cin" name="cin" inputmode="numeric">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inscription">N° d'inscription :</label>
+                </td>
+                <td>
+                    <input type="text" id="inscription" name="inscription" inputmode="numeric">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Envoyer">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

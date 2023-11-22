@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription en ligne</title>
+</head>
+<body>
+    <h2>Inscription en ligne</h2>
+    <p>Veuillez vous identifier avec votre N° de CIN :</p>
+
+    <form action="traitement_inscription.aspx" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="cin_inscription">N° de CIN :</label>
+                </td>
+                <td>
+                    <input type="text" id="cin_inscription" name="cin_inscription" inputmode="numeric">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Envoyer">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
